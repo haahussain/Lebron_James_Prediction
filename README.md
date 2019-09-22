@@ -17,13 +17,34 @@ The data cleaning process included:
 ## **Features** 
 There are a total of 24 features, which included:
 
--Age - Minutes Played - Team - Field-Goals Made - Field-Goals Attempted - Field Goal % - 3-pointers made - 3-pointers attemped - 3-point % - Free-Throws Made - Free Throws Attempted - Free-Throw % - Offensive Rebounds - Defensive Rebounds - Total Rebounds - Assist - Turnovers - Steals - Blocks - Points - Game-Score - Plus-Minus Score.
+* Age 
+* Minutes Played 
+* Team 
+* Field-Goals Made 
+* Field-Goals Attempted 
+* Field Goal % 
+* 3-pointers made 
+* 3-pointers attemped 
+* 3-point % 
+* Free-Throws Made 
+* Free Throws Attempted 
+* Free-Throw % 
+* Offensive Rebounds 
+* Defensive Rebounds 
+* Total Rebounds 
+* Assists 
+* Turnovers 
+* Steals 
+* Blocks 
+* Points 
+* Game-Score 
+* Plus-Minus Score
 
  **Engineered Features Included:** (Advanced Basketball Metrics)
 
--Asist to Turnover Ratio - A better metric to quantify ball handling.
+* Asist to Turnover Ratio - A better metric to quantify ball handling.
 
--Effective Field Goal % - A better metric to quantify shooting ability. 
+* Effective Field Goal % - A better metric to quantify shooting ability. 
 
 
  **Target**
