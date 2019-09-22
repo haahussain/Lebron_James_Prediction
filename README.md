@@ -1,5 +1,5 @@
-# Predicting Win/Loss based off of Lebron James Performance   
-### Project Description/Motivation
+# Predicting Team Success (Win/Loss) based off of Lebron James Performance   
+### Project Description/ Motivation
 Lebron James is widely accepted as the best player of this generation. Some even argue that he is the Greatest of all time. 
 There are many reasons why NBA fans believe this, but what type of impact does he have truly have on his teams success? Although Lebron James passes the 'eye-test' very easily, this project applies a more quantatative approach. This project takes Lebron's statistics on a nightly basis into consideration and then predicts whether or not his team resulted in a Win or Loss. 
 
@@ -68,11 +68,15 @@ The target variable is whether or not Lebron's team Won or Loss the game.
 
 
 ## **Modeling**
-Models Inlude: - Logistic Regression (Baseline Model) - Decision Tree Model (after hyperparamter Tuning) - Random Forest Model (after hyperparamter tuning) - XG Boost Model (after hyperparameter tuning). 
+Models Inlude: 
+* Logistic Regression (Baseline Model) 
+* Decision Tree Model (after hyperparamter Tuning) 
+* Random Forest Model (after hyperparamter tuning) 
+* XG Boost Model (after hyperparameter tuning). 
 
 Validation (Testing) Accuracy was chosen as the metric to select the best model. 
 
-#### Logistic Regression Model was used as the baseline model.
+#### Logistic Regression Model (baseline).
 ![Logistic Regression ROC Curve](./pics/roc_curve_logistic_regrssion.png "Logistic Regression ROC Curve")
 Training Accuracy 89.4 % Testing Accuracy 86.9 %
 #### Decision Tree Model 
@@ -85,9 +89,9 @@ Training Accuracy 89.52 % Testing Accuracy 90 %
 ![XGBoost confusion matrix](./pics/XGBoost_Confusion_Matrix.png)
 Training Accuracy 92.42 % Testing Accuracy 91.48 %
 
-All the models were very good at classifying wins accuratley but XG Boost model was the best at reducing False negatives and False positives which resulted in the best Validation accuracy score. 
+All the models were very good at classifying wins accuratley but XG Boost model was the best at reducing False negatives and False positives, which resulted in the best Validation accuracy score. 
 ![XGBoost feature importances](./pics/XGBoost_feature_importance.png)
-The plus-minus score feature provides the most information gain when classifying Win or Loss. The previous models also indicated plus-minus score as the feature providing the most information gain. The other features in the previous models were not providing much information gain but in the XG Boost model they do.  
+The plus-minus score feature provides the most information gain when classifying Win or Loss. The previous models also indicated plus-minus score as the feature providing the most information gain. But other features in the previous models were not providing much information gain but in the XG Boost model they do.  
 ## **Best Model** 
 ![table for all models](./pics/Table_All_Models.png)
 XGBoost has the best Validation Accuracy at 91.48%. Also the difference between the training and testing accuracy for XGBoost is the smallest, indicating that the model is not overfitting. 
