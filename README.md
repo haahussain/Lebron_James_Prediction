@@ -68,7 +68,7 @@ The target variable is whether or not Lebron's team Won or Loss the game.
 
 
 ## **Modeling**
-Models Inlude: 
+Models Include: (Grid Search method was used to find best hyperparameter values) 
 * Logistic Regression (Baseline Model) 
 * Decision Tree Model (after hyperparamter Tuning) 
 * Random Forest Model (after hyperparamter tuning) 
@@ -91,7 +91,7 @@ Training Accuracy 92.42 % Testing Accuracy 91.48 %
 
 All the models were very good at classifying wins accuratley but XG Boost model was the best at reducing False negatives and False positives, which resulted in the best Validation accuracy score. 
 ![XGBoost feature importances](./pics/XGBoost_feature_importance.png)
-The plus-minus score feature provides the most information gain when classifying Win or Loss. The previous models also indicated plus-minus score as the feature providing the most information gain. But other features in the previous models were not providing much information gain but in the XG Boost model they do.  
+The plus-minus score feature provides the most information gain when classifying Win or Loss. The previous models also indicated plus-minus score as the feature providing the most information gain. Other features in the previous models were not providing much information gain but in the XG Boost model they did.  
 ## **Best Model** 
 ![table for all models](./pics/Table_All_Models.png)
 XGBoost has the best Validation Accuracy at 91.48%. Also the difference between the training and testing accuracy for XGBoost is the smallest, indicating that the model is not overfitting. 
