@@ -1,4 +1,4 @@
-# Predicting Team Success (Win/Loss) based off of Lebron James Performance   
+# Using Machine Learning Models to Evaluate Lebron James Impact on Team Success (Win/Loss)    
 ### Project Description/ Motivation
 Lebron James is widely accepted as the best player of this generation. Some even argue that he is the Greatest of all time. 
 There are many reasons why NBA fans believe this, but what type of impact does he have truly have on his teams success? Although Lebron James passes the 'eye-test' very easily, this project applies a more quantatative approach. This project takes Lebron's statistics on a nightly basis into consideration and then predicts whether or not his team resulted in a Win or Loss. 
