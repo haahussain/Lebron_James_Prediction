@@ -101,5 +101,5 @@ It is interesting to note that Team Success(Win/Lose) can be determined with suc
 ## **Things to Consider in the Future**
 Since plus-minus score was the most important feature in all of the models, running the best model without the plus-minus feature present to see what effect it has on the model and accuracy. 
 Running the best model on an average player with a similar career arc as Lebron to further demonstrate Lebron's impact on his teams success.
-Further improving accuracy by running other types of models, adding features, and adjusting class imblance.
+Further improving accuracy by running other types of models, adding features, and adjusting for class imbalance.
 
