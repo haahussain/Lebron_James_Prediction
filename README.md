@@ -5,7 +5,7 @@ There are many reasons why NBA fans believe this, but what type of impact does h
 
 ## **Data Source** 
 
-The dataset is from kaggle and initial source of information is from nba-reference.com
+The initial source of information is from nba-reference.com
 The dataset includes every game that Lebron James has played from the year 2003 - 2018. (exluding when he played for the Lakers).
 The data cleaning process included:
 * Feature dropping 
@@ -96,10 +96,10 @@ The plus-minus score feature provides the most information gain when classifying
 ![table for all models](./pics/Table_All_Models.png)
 XGBoost has the best Validation Accuracy at 91.48%. Also the difference between the training and testing accuracy for XGBoost is the smallest, indicating that the model is not overfitting. 
 ## **Conclusions**
-It is interesting to note that Team Success(Win/Lose) can be determined with such high accuracy by simply including only 1-players statistics, Lebron James. It truly demonstrates how much of an impact Lebron's performance has on his team winning. 
+It is interesting to note that Team Success(Win/Lose) can be determined with such high accuracy by simply including only 1-players statistics, Lebron James. The results demonstrate Lebrons performance (whether good or bad) has a major impact on his team's success. Historically his team's have relied heavily on his performance.  
 
 ## **Things to Consider in the Future**
 Since plus-minus score was the most important feature in all of the models, running the best model without the plus-minus feature present to see what effect it has on the model and accuracy. 
-Running the best model on an average player with a similar career arc as Lebron to further demonstrate Lebron's impact on his teams success.
-Further improving accuracy by running other types of models, adding features, and adjusting for class imbalance.
+Running the best model on an average player with a similar career arc as Lebron and them comparing the results would further demonstrate Lebron's impact on his teams success.
+Further improving accuracy by running other types of models, adding features, and adjusting for class imbalance. Can use further scale project by using similar methods on other players to see what impact they have on their teams. 
 
